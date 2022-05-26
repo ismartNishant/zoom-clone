@@ -1,0 +1,36 @@
+.videos-list div{
+    width: 5rem;
+}
+.videos-list div img{
+    width: 100%;
+    object-fit: cover;
+}
+.videos-list p{
+    font-size: .8rem;
+}
+
+@media (max-width:600px)  {
+   .accordion-header a h4{
+       font-size: 1rem ;
+   } 
+}
+@media (max-width:500px)  {
+    .accordion-header a h4{
+        font-size: .9rem ;
+    } 
+    .accordion-header a p{
+        font-size: 0rem ;
+    }
+    .accordion .accordion-item .accordion-body{
+        padding: 0rem;
+    }
+    .accordion .accordion-item .accordion-body .list-group .list-group-item div div a,
+    .accordion .accordion-item .accordion-body .list-group .list-group-item div div p{
+        font-size: .5rem;
+
+    } 
+    .videos-list p{
+        font-size: .6rem !important;
+        margin-right: 1.5rem !important;
+    }
+ }
