@@ -19,7 +19,6 @@ body{
   }
   
 #box1{
-    height:80vh;
     background-color: black;
 }
 
@@ -30,7 +29,7 @@ body{
 .live-user div img{
     width: 100%;
 }
- i,
+ .bx,
  button{
     cursor: pointer !important;
    transition: all .5s ease-out;
@@ -45,12 +44,21 @@ button:hover{
     background-color: #000 !important;
     color: #fff !important;
 }
+.live-user .position-relative {
+    width: 15rem;
+    object-fit: cover;
+    height: 10rem;
+}
+.live-user .position-relative video{
+    width: 100%;
+    object-fit: cover;
+}
 @media (max-width:1100px)  {
    #box1{
        width: 100%;
-       height: 40vh;
+       height: 50vh;
    }
-   .col-lg-3{
+   .col-lg-4{
        width: 100%;
    }
    .live-user{
@@ -77,6 +85,9 @@ button:hover{
         .live-user div .pt-2 i{
             margin: 0rem .2rem !important; 
         }
+        .card-body .col-lg-3{
+            width: 30%;
+        }
  }
 
 @media (max-width:600px)  {
@@ -85,17 +96,28 @@ button:hover{
     }
     #box1{
         width: 100%;
+        height: 60vh;
     }
     .card-header {
         padding: 0.2rem;
        
     }
+    .card-body .col-lg-3 {
+        width: 40%;
+    }
     .live-user {
         padding:0rem .5rem;
-        height: 40vh !important;
+        height: 100vh !important;
     }
    
  }
  @media (max-width:500px)  {
-  
+    .card-body .col-lg-3 i{
+        padding: 0.2rem !important;
+        margin: 0.1rem !important;
+        font-size: .7rem !important;
+    }
+    .card-body .col-lg-3 p{
+        font-size: .7rem;
+    }
 }
