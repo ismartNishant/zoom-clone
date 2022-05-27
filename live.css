@@ -20,14 +20,16 @@ body{
   
 #box1{
     background-color: black;
+    height: 80vh;
+}
+nav{
+    padding: 1rem 2rem ;
+    margin-bottom: 1rem;
 }
 
 .live-user{
  overflow-y: scroll;
  height: 80vh;
-}
-.live-user div img{
-    width: 100%;
 }
  .bx,
  button{
@@ -45,9 +47,8 @@ button:hover{
     color: #fff !important;
 }
 .live-user .position-relative {
-    width: 15rem;
+    width: 18rem;
     object-fit: cover;
-    height: 10rem;
 }
 .live-user .position-relative video{
     width: 100%;
@@ -58,8 +59,8 @@ button:hover{
        width: 100%;
        height: 50vh;
    }
-   .col-lg-4{
-       width: 100%;
+   .user-part{
+       width: 100% !important;
    }
    .live-user{
     width: 100% !important;
@@ -74,10 +75,6 @@ button:hover{
  }
 
  @media (max-width:950px)  {
-    .live-user .position-relative{
-        width: 13rem;
-        padding: 1rem 1rem !important;
-        }
         .live-user {
             padding:.5rem 1rem;
         }
@@ -107,7 +104,11 @@ button:hover{
     }
     .live-user {
         padding:0rem .5rem;
-        height: 100vh !important;
+        height: 60vh !important;
+    }
+    nav{
+        padding: 0.2rem 1rem ;
+        margin-bottom: 0rem;
     }
    
  }
