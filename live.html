@@ -16,7 +16,7 @@
 </head>
 
 <body class="">
-    
+
     <nav class="bg-dark">
         <h4 class="text-light p-0 m-0">Course & topic name</h4>
 
@@ -77,33 +77,37 @@
         <!-- main screen  end -->
         <!-- live connected user section  start-->
         <div class="col-lg-3 bg-light text-dark user-part">
-            <div class="position-relative w-100  "   >
-                <ul  style="z-index: 9999;" class="nav bg-light nav-pills mb-3 w-100 p-1 justify-content-center border-bottom border-dark position-absolute align-items-center gap-2 "
-                   id="pills-tab" role="tablist"  >
+            <div class="position-relative w-100  ">
+                <ul style="z-index: 9;"
+                    class="nav bg-light nav-pills mb-3 w-100 p-1 justify-content-center border-bottom border-dark position-absolute align-items-center gap-2 "
+                    id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active py-1  px-2 border border-primary" id="pills-Users-tab"
                             data-bs-toggle="pill" data-bs-target="#pills-users" type="button" role="tab"
-                            aria-controls="pills-users" aria-selected="true">Users</button>
+                            aria-controls="pills-users" aria-selected="true"><i class='bx bxs-user-plus'></i>
+                            Users</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link py-1  px-2 border border-primary" id="pills-chat-tab"
                             data-bs-toggle="pill" data-bs-target="#pills-chat" type="button" role="tab"
-                            aria-controls="pills-chat" aria-selected="false">Chat</button>
+                            aria-controls="pills-chat" aria-selected="false"><i class='bx bxs-message-dots'></i>
+                            Chat</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link py-1  px-2 border border-primary" id="pills-questions-tab"
                             data-bs-toggle="pill" data-bs-target="#pills-questions" type="button" role="tab"
-                            aria-controls="pills-questions" aria-selected="false">Questions</button>
+                            aria-controls="pills-questions" aria-selected="false"><i class='bx bx-question-mark'></i>
+                            Questions</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link py-1  px-2 border border-primary" id="pills-notes-tab"
                             data-bs-toggle="pill" data-bs-target="#pills-notes" type="button" role="tab"
-                            aria-controls="pills-notes" aria-selected="false">Notes</button>
+                            aria-controls="pills-notes" aria-selected="false"><i class='bx bxs-book'></i> Notes</button>
                     </li>
                 </ul>
             </div>
             <div class="live-user">
-             
+
 
                 <div class="tab-content pt-5 text-light" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-users" role="tabpanel"
@@ -224,25 +228,26 @@
 
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-chat" role="tabpanel" aria-labelledby="pills-chat-tab">
-                        <div class="card py-3 p-1">
-                            <div class="uprbutton">
-                                <div class="card-body text-dark d-flex justify-content-between align-items-center">
+                    <div class="tab-pane fade text-dark" id="pills-chat" role="tabpanel" aria-labelledby="pills-chat-tab">
+                        <div class="py-3 p-1">
+                            <div>
+                                <div class="card-body border border-dark rounded-3 mb-2  d-flex justify-content-between align-items-center">
                                     <p class="p-0 m-0">Notify Me About </p>
                                     <div class="dropdown ms-2">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        <button class="btn btn-dark border dropdown-toggle" type="button"
                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                             Dropdown
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <ul class="dropdown-menu "
+                                            aria-labelledby="dropdownMenuButton1">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
                                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="">
-                                    <div class="mb-3">
+                                <div class="text-dark">
+                                    <div class="my-3 border border-dark rounded-3 p-2">
                                         <label for="exampleFormControlInput1" class="form-label">Noise
                                             Glitch</label>
                                         <div class="card crd2 bg-primary  text-dark bg-opacity-10 h-50 d-flex flex-row">
@@ -250,7 +255,7 @@
                                             <a class=" px-5" href="#">2👎</a>
                                         </div>
                                     </div>
-                                    <div class="mb-3">
+                                    <div class="my-3  border border-dark rounded-3 p-2">
                                         <label for="exampleFormControlInput1" class="form-label">Noise
                                             Glitch</label>
                                         <div class="card crd2 bg-success  text-dark bg-opacity-10 h-50 d-flex flex-row">
@@ -258,24 +263,23 @@
                                             <a class=" px-5" href="#">2👎</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Noise Glitch</label>
-                                    <div class="card crd2 bg-success  text-dark bg-opacity-10 h-50 d-flex flex-row">
-                                        <a class=" px-5" href="#">5👍</a>
-                                        <a class=" px-5" href="#">2👎</a>
+                                    <div class="my-3  border border-dark rounded-3 p-2">
+                                        <label for="exampleFormControlInput1" class="form-label">Noise Glitch</label>
+                                        <div class="card crd2 bg-success  text-dark bg-opacity-10 h-50 d-flex flex-row">
+                                            <a class=" px-5" href="#">5👍</a>
+                                            <a class=" px-5" href="#">2👎</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="">
-                             
+                            <div>
                                 <p class="text-center w-100 my-2">
-                                    <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                      Link with href
+                                    <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#collapseExample"
+                                        role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Link with href
                                     </a>
-                                    
-                                  </p>
-                                  <div class="collapse text-dark" id="collapseExample">
+                                </p>
+                                <div class="collapse text-dark " id="collapseExample">
                                     <div class="card card-body border border-dark">
                                         <strong>Chose Whichever you want to share</strong>
                                         <ul style="list-style: none;" class="my-4">
@@ -288,7 +292,7 @@
 
                                         </ul>
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                             <div class="px-2 d-flex justify-content-between my-3 ">
                                 <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
@@ -296,15 +300,17 @@
                                     placeholder="Send Message">
                                 <button type="button" class="btn btn-outline-success">Send </button>
                             </div>
+                              
+                            
                         </div>
                     </div>
                     <div class="tab-pane fade text-dark" id="pills-questions" role="tabpanel"
                         aria-labelledby="pills-questions-tab">
-                        <div class="card p-2">
-                            <div class="uprbutton ">
+                        <div class="p-2">
+                            <div>
                                 <div class="card-body d-flex justify-content-between">
                                     <p>Questions </p>
-                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                    <button type="button" class="btn-close bg-light" aria-label="Close"></button>
                                 </div>
                                 <div class="buttons text-center px-4">
                                     <div class="btn-group px-4 mx-2" role="group"
@@ -324,43 +330,66 @@
                                         Questions</label>
                                     <!-- Example single danger button -->
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-secondary dropdown-toggle btn-sm"
+                                        <button type="button" class="btn btn-dark border dropdown-toggle btn-sm"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Recent
                                         </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">PYQ</a></li>
-                                            <li><a class="dropdown-item" href="#">Imp</a></li>
-                                            <li><a class="dropdown-item" href="#">Chapterwise</a></li>
+                                        <ul class="dropdown-menu  ">
+                                            <li><a class="dropdown-item " href="#">PYQ</a></li>
+                                            <li><a class="dropdown-item " href="#">Imp</a></li>
+                                            <li><a class="dropdown-item " href="#">Chapterwise</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="card3 bg-success text-dark bg-opacity-10 shadow mb-3">
+                                <div class="card3 bg-success bg-opacity-25 shadow mb-3 rounded-bottom p-2 ">
                                     <p><strong>Note: </strong>Ypu can send 1 question in every</p><strong>3
                                         minutes</strong> gap so that the
                                     host can address all the questions
                                 </div>
-                                <div class="swt bg-primary p-2 text-dark bg-opacity-10 shadow-sm rounded">
-                                    <h5 class="mt-4">Shweta S</h5>
-                                    <p>What about font size of the video</p>
+                                <div class="my-3">
+                                    <div class="bg-opacity-10 bg-warning p-2  shadow-sm rounded-top ">
+                                        <h5 class="mb-3">Lisa Manoban</h5>
+                                        <p>What about font size of the vide cvdf fd gdtttggdgg fgrtro</p>
+                                    </div>
+                                    <div class="container bg-success bg-opacity-25 p-1 shadow rounded-bottom text-light">
+                                        <i class='bx bxs-like mx-2 fs-4 rounded-1 bg-success p-1 border border-success '>45</i>
+                                        
+                                        <i class='bx bxs-dislike mx-2 fs-4 rounded-1 bg-danger p-1 border border-danger'>23</i>
+                                    </div>
                                 </div>
-                                <div class="container bg-success p-1  text-dark bg-opacity-10 mb-4 shadow">
-                                    <i class='bx bxs-like mx-2 fs-4 rounded-1 bg-success p-1 border border-success'></i>
-                                    <i
-                                        class='bx bxs-dislike mx-2 fs-4 rounded-1 bg-danger p-1 border border-danger'></i>
+                                <div class="my-3">
+                                    <div class="swt bg-primary bg-opacity-25 p-2  shadow-sm rounded-top">
+                                        <h5 class="mb-3">Nishant Rajput</h5>
+                                        <p>What about font size of the vide cvdf fd gdtttggdgg fgrtro</p>
+                                    </div>
+                                    <div class="container bg-danger bg-opacity-25 p-1  shadow text-end rounded-bottom text-light">
+                                        <i class='bx bxs-like mx-2 fs-4 rounded-1 bg-success p-1 border border-success'>11</i>
+                                        <i class='bx bxs-dislike mx-2 fs-4 rounded-1 bg-danger p-1 border border-danger'>55</i>
+                                    </div>
                                 </div>
-                                <div class="swt bg-primary p-2 text-dark bg-opacity-10 shadow-sm rounded">
-                                    <h5 class="mt-2">Rohan P</h5>
-                                    <p>What about font size of the video</p>
+                                <div class="my-3">
+                                    <div class="bg-opacity-25 bg-warning p-2  shadow-sm rounded-top ">
+                                        <h5 class="mb-3">Nancy Jwel</h5>
+                                        <p>What about font size of the vide cvdf fd gdtttggdgg fgrtro</p>
+                                    </div>
+                                    <div class="container bg-success bg-opacity-25 p-1   mb-4 shadow rounded-bottom text-light">
+                                        <i class='bx bxs-like mx-2 fs-4 rounded-1 bg-success p-1 border border-success'>2</i>
+                                        <i class='bx bxs-dislike mx-2 fs-4 rounded-1 bg-danger p-1 border border-danger'>10</i>
+                                    </div>
                                 </div>
-                                <div class="container bg-success p-1 text-dark bg-opacity-10 shadow text-end">
-                                    <i class='bx bxs-like mx-2 fs-4 rounded-1 bg-success p-1 border border-success'></i>
-                                    <i
-                                        class='bx bxs-dislike mx-2 fs-4 rounded-1 bg-danger p-1 border border-danger'></i>
+                                <div class="my-3"> 
+                                <div class="swt bg-primary bg-opacity-25 p-2  shadow-sm rounded-top">
+                                    <h5 class="mb-3">Nisjant Rajput</h5>
+                                    <p>What about font size of the vide cvdf fd gdtttggdgg fgrtro</p>
                                 </div>
+                                <div class="container bg-danger bg-opacity-25 p-1  shadow text-end rounded-bottom text-light">
+                                    <i class='bx bxs-like mx-2 fs-4 rounded-1 bg-success p-1 border border-success'>47</i>
+                                    <i class='bx bxs-dislike mx-2 fs-4 rounded-1 bg-danger p-1 border border-danger'>33</i>
+                                </div>
+                            </div>
                             </div>
                             <div class="mb-3 d-flex justify-content-between my-3">
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -381,10 +410,10 @@
                 </div>
                 <!-- modal of notes  -->
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
+                <div class="modal fade  " style="background-color: rgba(255, 255, 255, 0.836);" id="exampleModal"
+                    tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog bg-success">
+                        <div class="modal-content border-0">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel">Add Notes Here</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
